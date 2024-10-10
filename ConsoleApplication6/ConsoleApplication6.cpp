@@ -41,7 +41,7 @@ int main() {
     int totalElements = r * c;
     double average = static_cast<double>(sum) / totalElements;
 
-    cout << "\n\nСумма: " << sum << endl;
+    cout << "\nСумма: " << sum << endl;
     cout << "Среднее: " << average << endl;
     cout << "Всего положительных: " << positiveCount << endl;
     cout << "Всего отрицательных: " << negativeCount << endl;
